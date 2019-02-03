@@ -7,7 +7,7 @@ JavaScript/Node.JS web app - help users organize and keep track of a home budget
 - Bank account transactions *(deposit || withdrawal || transfer || payment || ...)* & show new balance.
 - Credit card transactions & show balance
 
-## Display Account Categories:
+## Displaying Account Categories:
 *Display history transactions & project future balance*
 - Household spending/income *cash outflow || inflow*.
 - Banking accounts *checking || saving*.
