@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Account:Credit Card</title>
+<meta name='description' content=''>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+</head>
+<body>
+    <h1>Account: ${Credit Card}</h1>
+    <div id="content_wrapper">
+        <!-- Table #1 -->
+        <div class="table_wrapper">
+            <h2><span style="color:blue;">${Credit Card #1}</span> (Billing cycle: <span style="color:green;">${start_date} ~ ${end_date}</span>)</h2>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Transaction</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Balance</th>
+                    <th scope="col">Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1/29/2019</th>
+                        <td>Walmart</td>
+                        <td>$9.99</td>
+                        <td><strong>$9.99</strong></td>
+                        <td>${Grocery}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1/29/2019</th>
+                        <td>Walmart</td>
+                        <td>$10.99</td>
+                        <td><strong>$20.98</strong></td>
+                        <td>${Household goods}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1/31/2019</th>
+                        <td>Costco Gas</td>
+                        <td>$32.00</td>
+                        <td><strong>$52.98</strong></td>
+                        <td>${Car gas}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+            <!-- Table #2 -->
+            <div class="table_wrapper">
+                    <h2><span style="color:blue;">${Credit Card #2}</span> (Billing cycle: <span style="color:green;">${start_date} ~ ${end_date}</span>)</h2>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Transaction</th>
+                            <th scope="col">Amount</th>
+                            <th scope="col">Balance</th>
+                            <th scope="col">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1/30/2019</th>
+                                <td>AT&T</td>
+                                <td>$102.99</td>
+                                <td><strong>$102.99</strong></td>
+                                <td>${Cell Phone}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1/31/2019</th>
+                                <td>AT&T</td>
+                                <td>$50.00</td>
+                                <td><strong>$152.99</strong></td>
+                                <td>${Internet}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1/31/2019</th>
+                                <td>Netflix</td>
+                                <td>$20.00</td>
+                                <td><strong>$172.99</strong></td>
+                                <td>${Entertainments}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            
+    </div>
+</body>
+</html>
