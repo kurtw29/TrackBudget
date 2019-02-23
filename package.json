@@ -1,8 +1,0 @@
-{
-  "name": "TrackBudget",
-  "version": "1.0.0",
-  "description": "JavaScript/Node.JS web app - help users organize and keep track of a home budget.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-}
